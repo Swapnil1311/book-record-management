@@ -5,7 +5,7 @@ const {
   getAllIssuedBooks,
   addNewBook,
   updateBookById,
-} = require("../controllers/book-controller");
+} = require("../controllers/book-contoller");
 const { books } = require("../data/books.json");
 const { users } = require("../data/users.json");
 // const { route } = require("./users");
